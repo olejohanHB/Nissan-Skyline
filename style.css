@@ -1,0 +1,69 @@
+
+body{
+	
+	background-image: url("img/background.jpg");
+    background-color: #cccccc;
+	size: relative;
+	background-size: cover;
+	
+	
+}
+
+
+.whiteheader {
+	color: white;
+	font-stretch: 20%;
+	text-align: center;
+	font-size: 100px;
+  	font-family: 'Play', sans-serif; 
+}
+
+.navheader {
+	color: black;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px 30px 30px;
+	width: width;
+	background-color: mediumblue;
+	border-radius: 5px;
+}
+
+.videoheader {
+	position: relative;
+	color: white;
+	font-family: 'Play', sans-serif; 
+	text-align: center;
+	margin-right: 15px;
+	margin-left: 15px;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px 30px 30px;
+	width: width;
+	background-color: mediumblue;
+	border-radius: 5px;	
+}
+
+a:link {
+    text-decoration: none;
+	color: white;
+	font-family: 'Play', sans-serif; 
+}
+
+a:visited {
+    text-decoration: none;
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
+a:active {
+    text-decoration: none;
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
