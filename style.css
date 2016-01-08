@@ -10,6 +10,23 @@ body{
 }
 
 
+p{
+	color: #cccccc;
+	
+}
+
+
+.pheader {
+	color: black;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px 30px 30px;
+	width: width;
+	background-color: mediumblue;
+	border-radius: 5px;
+	line-height: 25%
+}
+
 .whiteheader {
 	color: white;
 	font-stretch: 20%;
@@ -26,6 +43,7 @@ body{
 	width: width;
 	background-color: mediumblue;
 	border-radius: 5px;
+	line-height: 25%
 }
 
 .videoheader {
@@ -67,3 +85,20 @@ a:active {
 	font-family: 'Play', sans-serif;
 }
 
+
+
+.bottom {
+  font-size: 15px;
+	color: ghostwhite;
+	font-family: 'Play', sans-serif; 
+  position: fixed; 
+  bottom: 0; 
+  width:100%; 
+  text-align: center;
+}
+
+#normaltext {
+	font-size: 15px;
+	color: ghostwhite;
+	font-family: 'Play', sans-serif; 
+}
