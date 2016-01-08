@@ -54,6 +54,8 @@ p{
 	text-align: center;
 	padding: 30px 30px 30px;
 	fill-opacity: 0.5;
+	stroke-opacity: 0.5;
+	opacity: 0.5;
 	background-color: black;
 	background-size: 5px;
 	border-radius: 5px;
