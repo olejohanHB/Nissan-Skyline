@@ -26,7 +26,7 @@ p{
 	
 }
 
-.whiteheader {
+header {
 	color: white;
 	font-stretch: 20%;
 	text-align: center;
@@ -34,7 +34,8 @@ p{
   	font-family: 'Play', sans-serif; 
 }
 
-.navheader {
+nav {
+	font-family: 'Play', sans-serif;
 	color: black;
 	position: relative;
 	margin: 0 auto;
@@ -53,14 +54,10 @@ p{
 	width:100%; 
 	text-align: center;
 	padding: 30px 30px 30px;
-	fill-opacity: 0.5;
-	stroke-opacity: 0.5;
-	opacity: 0.5;
-	background-color: black;
+	background-color: transparent;
+
 	background-size: 5px;
 	border-radius: 5px;
-	
-	
 }
 
 .videoheader {
@@ -77,10 +74,9 @@ p{
 	background-color: mediumblue;
 	border-radius: 5px;	
 }
-.textno{
-	color: white;
-	
-}
+
+
+
 
 a:link {
     text-decoration: none;
