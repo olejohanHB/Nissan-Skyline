@@ -22,9 +22,10 @@ p{
 	margin: 0 auto;
 	padding: 30px 30px 30px;
 	width: width;
-	background-color: mediumblue;
+	background-color: black;
 	border-radius: 5px;
-	line-height: 25%
+	line-height: 25%;
+	opacity: 0.4;
 }
 
 .whiteheader {
@@ -43,7 +44,21 @@ p{
 	width: width;
 	background-color: mediumblue;
 	border-radius: 5px;
-	line-height: 25%
+}
+
+.bottom {
+	font-size: 15px;
+	color: white;
+	font-family: 'Play', sans-serif; 
+	position: fixed; 
+	bottom: 0; 
+	width:100%; 
+	text-align: center;
+	padding: 30px 30px 30px;
+	background-color: black;
+	background-size: 5px;
+	border-radius: 5px;
+	opacity: 0.5;
 }
 
 .videoheader {
@@ -59,6 +74,10 @@ p{
 	width: width;
 	background-color: mediumblue;
 	border-radius: 5px;	
+}
+.textno{
+	color: white;
+	opacity: 1;
 }
 
 a:link {
@@ -83,22 +102,4 @@ a:active {
     text-decoration: none;
 	color: white;
 	font-family: 'Play', sans-serif;
-}
-
-
-
-.bottom {
-  font-size: 15px;
-	color: ghostwhite;
-	font-family: 'Play', sans-serif; 
-  position: fixed; 
-  bottom: 0; 
-  width:100%; 
-  text-align: center;
-}
-
-#normaltext {
-	font-size: 15px;
-	color: ghostwhite;
-	font-family: 'Play', sans-serif; 
 }
