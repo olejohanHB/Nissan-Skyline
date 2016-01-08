@@ -10,69 +10,85 @@ body{
 
 p{
 	color: #cccccc;
-	
 }
-
-
-.pheader {
-	color: black;
-	position: relative;
-	margin: 0 auto;
-	padding: 30px 30px 30px;
-	width: width;
+.leftbox{
+	font-size: 14px;
+	margin: 2%;
+	width: 25%;
+	padding: 20px 20px 20px;
 	background-color: black;
 	border-radius: 5px;
-	line-height: 25%;
-	
+	float: left;
 }
+	
+.centerbox{
+	font-size: 14px;
+	margin: 2%;
+	width: 25%;
+	padding: 20px 20px 20px;
+	background-color: black;
+	border-radius: 5px;
+	float: left;
+}	
+		
+.rightbox{
+	font-size: 14px;
+	margin: 2%;
+	width: 25%;
+	padding: 20px 20px 20px;
+	background-color: black;
+	border-radius: 5px;
+	float: left;	
+}
+
 
 header {
 	color: white;
 	font-stretch: 20%;
 	text-align: center;
 	font-size: 100px;
-  	font-family: 'Play', sans-serif; 
+  	font-family: 'Play', sans-serif;
+	background-color: rgba(255,255,255, 0.3);
+	border-radius: 5px;
+	margin-bottom: 25px;
 }
 
 nav {
 	font-family: 'Play', sans-serif;
 	color: black;
-	position: relative;
 	margin: 0 auto;
 	padding: 30px 30px 30px;
 	width: width;
-	background-color: mediumblue;
+	background-color: rgba(25,25,255, 0.8);
 	border-radius: 5px;
+	margin-bottom: 25px;
 }
 
 .bottom {
 	font-size: 15px;
 	color: white;
 	font-family: 'Play', sans-serif; 
-	position: fixed; 
 	bottom: 0; 
 	width:100%; 
 	text-align: center;
 	padding: 30px 30px 30px;
-	background-color: transparent;
-
+	background: rgba(0,0,0, 0.5);
 	background-size: 5px;
 	border-radius: 5px;
 }
 
-.videoheader {
-	position: relative;
+.videobackground {
 	color: white;
 	font-family: 'Play', sans-serif; 
 	text-align: center;
 	margin-right: 15px;
 	margin-left: 15px;
-	position: relative;
 	margin: 0 auto;
 	padding: 30px 30px 30px;
 	width: width;
-	background-color: mediumblue;
-	border-radius: 5px;	
+	background-color: rgba(0,0,255, 0.5);
+	border-radius: 5px;
+	margin-bottom: 25px;	
 }
 
 
