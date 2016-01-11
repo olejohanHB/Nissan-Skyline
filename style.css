@@ -19,6 +19,7 @@ p{
 	background-color: black;
 	border-radius: 5px;
 	float: left;
+	position: relative;
 }
 	
 .centerbox{
@@ -29,6 +30,7 @@ p{
 	background-color: black;
 	border-radius: 5px;
 	float: left;
+	position: relative;
 }	
 		
 .rightbox{
@@ -38,7 +40,19 @@ p{
 	padding: 20px 20px 20px;
 	background-color: black;
 	border-radius: 5px;
-	float: left;	
+	float: left;
+	position: relative;	
+}
+
+.bottombox{
+	font-size: 14px;
+	margin: 2%;
+	width: 25%;
+	padding: 20px 20px 20px;
+	background-color: rgba(255,255,255, 0.2);;
+	border-radius: 5px;
+	text-align: center;
+	position: relative;
 }
 
 
@@ -69,7 +83,7 @@ nav {
 	color: white;
 	font-family: 'Play', sans-serif; 
 	bottom: 0; 
-	width:100%; 
+	width: width; 
 	text-align: center;
 	padding: 30px 30px 30px;
 	background: rgba(0,0,0, 0.5);
