@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script src="galleria/galleria-1.4.2.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
     <title>The history of the Nissan Skyline GTR R33-34</title>
     
@@ -15,17 +16,33 @@
  $(document).ready(function(){
     $(".navbar").load("nav.html")
     $(".footer-jq").load("footer.html")
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+
+
 });</script>
 
-    <div>
-        <header>Skyline</header>
-    </div>
+    <div><header>Skyline</header></div>
+
       <div class="navbar"></div>
 
-<div class=footer-jq></div>
 
-    
+	<div class="galleria">
+    	<img src="img/sky1.jpg">
+    	<img src="img/sky2.jpg">
+    	<img src="img/sky3.jpg">
+    	<img src="img/sky4.jpg">
+    	<img src="img/sky5.jpg">
+    	<img src="img/sky6.jpg">
+    	<img src="img/sky7.jpg">
+    	<img src="img/sky8.jpg">
+    	<img src="img/sky9.jpg">
+    	<script>
+
+		</script>
+	</div>
+    <div class=footer-jq></div>
+
+
 </body>
 </html>
-
-    
